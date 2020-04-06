@@ -1,0 +1,4 @@
+microservices/course/core/model/AbstractEntity.class
+microservices/course/core/model/Course.class
+microservices/course/core/repository/CourseRepository.class
+microservices/course/core/model/Course$CourseBuilder.class
