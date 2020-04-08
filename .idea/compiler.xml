@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="discovery" />
+        <module name="gateway" />
         <module name="course1" />
       </profile>
     </annotationProcessing>
@@ -14,6 +16,8 @@
       <module name="core" target="1.8" />
       <module name="course" target="1.8" />
       <module name="course1" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="spring-boot-micro-services" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +25,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="core" options="-parameters" />
       <module name="course1" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="spring-boot-micro-services" options="-parameters" />
     </option>
   </component>
