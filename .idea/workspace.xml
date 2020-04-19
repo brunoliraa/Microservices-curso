@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f31fa10-4f4b-4f8f-9ab4-b405f2126da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/092502cb-04ca-4bba-9154-2e027b90270d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/092502cb-04ca-4bba-9154-2e027b90270d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/microservices/course/auth/security/config/SecurityCredentialsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/microservices/course/auth/security/config/SecurityCredentialsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course1/course1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/course1/course1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/microservices/course/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/microservices/course/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token/token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,16 +126,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AuthApplicationTests" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.CourseApplication" />
-      <item itemvalue="JUnit.AuthApplicationTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthApplicationTests" />
         <item itemvalue="Spring Boot.CourseApplication" />
+        <item itemvalue="JUnit.AuthApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +162,8 @@
       <workItem from="1586910898294" duration="4395000" />
       <workItem from="1586955386078" duration="597000" />
       <workItem from="1586958310139" duration="5482000" />
+      <workItem from="1587054060813" duration="79000" />
+      <workItem from="1587307851781" duration="3896000" />
     </task>
     <servers />
   </component>
@@ -210,38 +199,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586789142040" />
-    <state width="1253" height="202" key="GridCell.Tab.0.bottom" timestamp="1586963793118">
+    <state width="906" height="344" key="GridCell.Tab.0.bottom" timestamp="1587311747889">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="202" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586963793118" />
-    <state width="1253" height="202" key="GridCell.Tab.0.center" timestamp="1586963793118">
+    <state width="906" height="344" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587311747889" />
+    <state width="906" height="344" key="GridCell.Tab.0.center" timestamp="1587311747888">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="202" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586963793118" />
-    <state width="1253" height="202" key="GridCell.Tab.0.left" timestamp="1586963793117">
+    <state width="906" height="344" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1587311747888" />
+    <state width="906" height="344" key="GridCell.Tab.0.left" timestamp="1587311747888">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="202" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586963793117" />
-    <state width="1253" height="202" key="GridCell.Tab.0.right" timestamp="1586963793118">
+    <state width="906" height="344" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1587311747888" />
+    <state width="906" height="344" key="GridCell.Tab.0.right" timestamp="1587311747888">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="202" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586963793118" />
-    <state width="906" height="344" key="GridCell.Tab.1.bottom" timestamp="1586963793113">
+    <state width="906" height="344" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1587311747888" />
+    <state width="906" height="344" key="GridCell.Tab.1.bottom" timestamp="1587311747890">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="906" height="344" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586963793113" />
-    <state width="906" height="344" key="GridCell.Tab.1.center" timestamp="1586963793113">
+    <state width="906" height="344" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587311747890" />
+    <state width="906" height="344" key="GridCell.Tab.1.center" timestamp="1587311747889">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="906" height="344" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1586963793112" />
-    <state width="906" height="344" key="GridCell.Tab.1.left" timestamp="1586963793112">
+    <state width="906" height="344" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1587311747889" />
+    <state width="906" height="344" key="GridCell.Tab.1.left" timestamp="1587311747889">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="906" height="344" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1586963793112" />
-    <state width="906" height="344" key="GridCell.Tab.1.right" timestamp="1586963793113">
+    <state width="906" height="344" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1587311747889" />
+    <state width="906" height="344" key="GridCell.Tab.1.right" timestamp="1587311747890">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="906" height="344" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1586963793113" />
+    <state width="906" height="344" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1587311747890" />
     <state x="299" y="133" width="824" height="526" key="IDE.errors.dialog" timestamp="1586441042758">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
