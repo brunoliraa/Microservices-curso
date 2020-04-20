@@ -6,6 +6,7 @@ import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import microservices.course.core.property.JwtConfiguration;
 import microservices.course.security.token.converter.TokenConverter;
+import microservices.course.security.util.SecurityContextUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -37,7 +38,7 @@ public class JwtTokenAuthorizationFilter extends OncePerRequestFilter {
 
         String token = header.replace(jwtConfiguration.getHeader().getPrefix(), "").trim();
 
-        //SecurityContextUtil.setSecurityContext(equalsIgnoreCase("signed", jwtConfiguration.getType()) ? validate(token) : decryptValidating(token));
+        SecurityContextUtil.setSecurityContext(equalsIgnoreCase("signed", jwtConfiguration.getType()) ? validate(token) : decryptValidating(token));
 
         chain.doFilter(request, response);
     }
